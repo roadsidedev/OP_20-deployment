@@ -12,10 +12,10 @@ import {
 @final
 export class MyToken extends OP_20 {
     constructor() {
-        const maxSupply: u256 = u128.fromString('500000000000000000000000000').toU256();
+        const maxSupply: u256 = u128.fromString('300000000000000000000000000').toU256();
         const decimals: u8 = 18;
-        const name: string = 'Kamala';
-        const symbol: string = 'kamala';
+        const name: string = 'ginger';
+        const symbol: string = 'ginger';
 
         super(maxSupply, decimals, name, symbol);
     }
